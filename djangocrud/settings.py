@@ -10,8 +10,7 @@ import dj_database_url
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('SECRET_KEY', default='django-insecure-tu-key-actual-aqui')
-
+SECRET_KEY = os.environ.get('SECRET_KEY', default='i83bweo!_8d1&rq#nfwd*0#8c5vq0oln1%io3fl0#2bgn&@rb(')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'RENDER' not in os.environ
 
